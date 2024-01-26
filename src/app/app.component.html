@@ -1,0 +1,49 @@
+<div class="container">
+    <div class="row mt-2 {{darkMode? 'dark':''}}">
+        <div class="col-3 py-1 bleu">
+            <p>{{phrase}}</p>
+            
+        </div>
+        <div class="col-9 py-1 rose">
+            <p>{{n}}</p>
+        </div>
+    </div>
+    <div class="row mt-2 {{darkMode? 'dark':''}}">
+        <div class="col-3 py-1 bleu">
+            <p>{{dog.name}}</p>
+            <p>{{dog.dogInfo()}}</p>
+            <img class="img-fluid" src="{{dog.imgUrl}}" alt="Nintendog">
+        </div>
+        <div class="col-9 py-1 rose">
+            <ul>
+                <li *ngFor="let h of hateList">{{h}}</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="row mt-2 {{darkMode? 'dark':''}}">
+        <div class="col-3 py-1 bleu">
+            <p *ngFor="let f of friends">{{f.name}} est un {{f.occupation}}<span *ngIf="f.occupation == 'Artiste Asmr'"> 😳</span> </p> 
+        </div>
+        <div class="col-9 py-1 rose">
+            <form>
+                <input type="text" name="name" [(ngModel)]="formName">
+                <input type="text" name="occupation" [(ngModel)]="formOccupation">
+                <button (click)="addFriend()">Ajouter</button>
+            </form>
+            <button (click)="removeLastFriend()">retirer dernier ami</button>
+        </div>
+    </div>
+    <div class="row mt-2 {{darkMode? 'dark':''}}">
+        <div class="col-3 py-1 bleu" >
+                <button (click)="toggledarkMode()">
+                    <span *ngIf="darkMode == false">☀</span>
+                    <span *ngIf="darkMode == true">🌙</span>
+                </button>
+        </div>
+        <div class="col-9 py-1 rose">
+            <span *ngIf="darkMode == false"> Thème clair</span>
+            <span *ngIf="darkMode == true">Thème sombre</span>
+        </div>
+    </div>
+</div>
