@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../Service/data.service';
 
 @Component({
   selector: 'app-index',
@@ -6,12 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./index.component.css']
 })
 export class IndexComponent implements OnInit {
-
-  characters : string[] = ["bebe","butters","clyde","craig","eric","kenny","kyle","nichole","stan","tolkien","wendy"];
   
   characterName : string = "";
 
-  constructor() { }
+  constructor(public data: DataService) { }
 
   ngOnInit() {
     
