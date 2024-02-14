@@ -1,0 +1,10 @@
+{
+  "i18n":{
+        "vArgent":"Votre argent : ",
+        "pari":"Parier 5 $ sur un numéro",
+        "pariRouge":"Parier 5 $ sur rouge",
+        "pariNoir":"Parier 5 $ sur noir",
+        "titre":"Roulette bilingue",
+        "avertissement":"Ne pas jouer si vous êtes facilement étourdi(e)"
+  }
+}

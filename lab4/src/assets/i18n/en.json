@@ -1,0 +1,10 @@
+{
+  "i18n":{
+    "vArgent":"Your money : ",
+    "pari":"Bet $5 on a number",
+    "pariRouge":"Bet $5 on red",
+    "pariNoir":"Bet $5 on black",
+    "titre":"Bilingual roulette",
+    "avertissement":"Do not play if you get easily dizzy"
+  }
+}
