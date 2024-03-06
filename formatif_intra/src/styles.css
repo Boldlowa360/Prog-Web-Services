@@ -1,0 +1,42 @@
+header, footer, main, nav{
+    background-color:aliceblue;
+    border:solid 1px lightgray;
+    margin:10px;
+    padding:10px;
+}
+
+header{
+    font-size: 1.5em;
+}
+
+nav{
+    padding:0px;
+}
+
+nav .col{
+    padding:10px;
+    cursor:pointer;
+    text-decoration: none;
+    color:inherit;
+}
+
+nav .col:hover{
+    background-color:rgb(222, 240, 255);
+    font-weight:bold;
+}
+
+.pkmnList::after{
+    content: ", ";
+}
+
+.pkmnList:last-child::after{
+    content: "";
+}
+
+.favorite{
+    cursor:pointer;
+}
+
+.pkmn{
+    border:solid 1px lightgray;
+}

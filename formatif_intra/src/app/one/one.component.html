@@ -1,0 +1,16 @@
+<h4>Chercher un Pokémon 🔍</h4>
+<input type="text" placeholder="ex. pikachu"[(ngModel)]="nomPokemon" name="nomPokemon">
+<br>
+<button (click)="recherche()">Rechercher</button>
+<br><br>
+
+<!-- Exemple d'affichage des informations du Pokémon recherché  -->
+<h4>Résultat 🕵️‍♀️</h4>
+
+<div *ngIf="monPokemon != undefined">
+<p>Id : {{monPokemon.id}}</p>
+<img src={{monPokemon.imgSrc}} alt="Swablu">
+<p>Nom : {{monPokemon.name}}</p>
+<p class="favorite" (click)="pokeApi.listPokemon(monPokemon)">+⭐</p>
+</div>
+

@@ -1,0 +1,13 @@
+<h4>Mes Pokémons favoris ⭐</h4>
+
+<div class="row text-center">
+
+  <!-- Exemple d'affichage de 2 pokémons favoris -->
+
+  <div class="col-2 pkmn" *ngFor="let pokemon of pkmns">
+    <h5>Id : {{pokemon.id}}</h5>
+    <p>Nom : {{pokemon.name}}</p>
+    <img class="img-fluid" src={{pokemon.imgSrc}} alt="swablu">
+  </div>
+</div>
+
