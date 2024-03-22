@@ -11117,11 +11117,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\2012878\\Downloads\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
+      "projectUniqueName": "C:\\Users\\2012878\\Desktop\\Prog-Web-Services\\lab8\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
       "projectName": "bruh",
-      "projectPath": "C:\\Users\\2012878\\Downloads\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
+      "projectPath": "C:\\Users\\2012878\\Desktop\\Prog-Web-Services\\lab8\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
       "packagesPath": "C:\\Users\\2012878\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\2012878\\Downloads\\labo8_v2\\Labo8api_(vide)\\bruh\\obj\\",
+      "outputPath": "C:\\Users\\2012878\\Desktop\\Prog-Web-Services\\lab8\\labo8_v2\\Labo8api_(vide)\\bruh\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\2012878\\AppData\\Roaming\\NuGet\\NuGet.Config",

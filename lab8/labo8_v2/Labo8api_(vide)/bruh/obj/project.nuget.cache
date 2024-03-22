@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AAzojJvx4jyNNy3JmYFQDRd+6zxM2J0M/lAULO5Ia565dVYzhYkCNSK34/xqHaBLC+hj6FAPO4CuNEusJZg+fQ==",
+  "dgSpecHash": "jgJbjzp/Dl7VgTkOWUiFSVvXA4k8SHORwBLArBF+AEdpEsnYmoD4uoMXLXljP+NaZheeE02B0lTImV3gm+x8iA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\2012878\\Downloads\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
+  "projectFilePath": "C:\\Users\\2012878\\Desktop\\Prog-Web-Services\\lab8\\labo8_v2\\Labo8api_(vide)\\bruh\\bruh.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2012878\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\2012878\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

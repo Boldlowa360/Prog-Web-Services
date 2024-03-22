@@ -1,12 +1,14 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using bruh.Data;
+using bruh.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<bruhContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("bruhContext") ?? throw new InvalidOperationException("Connection string 'bruhContext' not found.")));
 
 // Add services to the container.
-
+builder.Services.AddScoped<AnimalService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();

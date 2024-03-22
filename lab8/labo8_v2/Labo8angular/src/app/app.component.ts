@@ -51,13 +51,14 @@ export class AppComponent {
 
   // Supprime un animal en particulier dans la base de données
   async deleteAnimal(id: number) : Promise<void>{
-    let x = await lastValueFrom(this.http.post<Animal>("http://localhost:7150/api/destroy/"+id, id))
+    let x = await lastValueFrom(this.http.post<Animal>("http://localhost:7150/api/destroy/"+id, id));
     console.log(x);
   }
 
   // Sussy function
   async deleteAll() : Promise<void>{
-    // L
+    let x = await lastValueFrom(this.http.delete<Animal>("http://localhost:7150/api/destroy"));
+    console.log(x);
   }
 
 }
